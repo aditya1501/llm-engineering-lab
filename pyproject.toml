@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-engineering-lab"
+version = "0.1.0"
+description = "Reproducible engineering challenges for production LLM applications."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pydantic>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5", "fastapi>=0.110", "httpx>=0.27"]
+api = ["fastapi>=0.110", "uvicorn>=0.29"]
+live = ["openai>=1.40", "anthropic>=0.40"]
+
+[tool.setuptools.package-dir]
+llm_lab = "shared/llm_lab"
+halludetect = "challenges/01-hallucination-detection/implementation/halludetect"
+
+[tool.setuptools]
+packages = ["llm_lab", "llm_lab.providers", "halludetect", "halludetect.detectors"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "challenges"]
+pythonpath = ["shared", "challenges/01-hallucination-detection/implementation"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B905"]  # long strings in the hand-written dataset; formatting is not the point here
+
+[tool.ruff.lint.isort]
+known-first-party = ["llm_lab", "halludetect"]

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+.DS_Store
+# generated-answer dumps from live runs can be large; commit them deliberately
+challenges/*/results/generated-*.jsonl
