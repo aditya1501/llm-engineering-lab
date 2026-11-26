@@ -1,80 +1,80 @@
-{"id": "b001-f", "method": "exact_match", "score": 0.1111, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b001-h", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
-{"id": "b002-f", "method": "exact_match", "score": 0.1429, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b002-h", "method": "exact_match", "score": 0.2143, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b003-f", "method": "exact_match", "score": 0.2, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b003-h", "method": "exact_match", "score": 0.3636, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
+{"id": "b001-f", "method": "exact_match", "score": 0.2222, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b001-h", "method": "exact_match", "score": 0.4444, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b002-f", "method": "exact_match", "score": 0.1429, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b002-h", "method": "exact_match", "score": 0.2143, "predicted": false, "gold": true, "type": "number_change", "flagged_claims": null}
+{"id": "b003-f", "method": "exact_match", "score": 0.0667, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b003-h", "method": "exact_match", "score": 0.2609, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b004-f", "method": "exact_match", "score": 0.1, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b004-h", "method": "exact_match", "score": 0.1818, "predicted": true, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b005-f", "method": "exact_match", "score": 0.2143, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b005-h", "method": "exact_match", "score": 0.2143, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
+{"id": "b004-h", "method": "exact_match", "score": 0.1818, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
+{"id": "b005-f", "method": "exact_match", "score": 0.2667, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b005-h", "method": "exact_match", "score": 0.2667, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
 {"id": "b006-f", "method": "exact_match", "score": 0.1, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b006-h", "method": "exact_match", "score": 0.1765, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
+{"id": "b006-h", "method": "exact_match", "score": 0.1765, "predicted": false, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b007-f", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b007-h", "method": "exact_match", "score": 0.4167, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
 {"id": "b008-f", "method": "exact_match", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b008-h", "method": "exact_match", "score": 0.0769, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b009-f", "method": "exact_match", "score": 0.2, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b009-h", "method": "exact_match", "score": 0.2, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": null}
-{"id": "b010-f", "method": "exact_match", "score": 0.2727, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b010-h", "method": "exact_match", "score": 0.2727, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": null}
-{"id": "b011-f", "method": "exact_match", "score": 0.1667, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b008-h", "method": "exact_match", "score": 0.0833, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
+{"id": "b009-f", "method": "exact_match", "score": 0.0833, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b009-h", "method": "exact_match", "score": 0.0833, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b010-f", "method": "exact_match", "score": 0.1818, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b010-h", "method": "exact_match", "score": 0.1818, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b011-f", "method": "exact_match", "score": 0.1667, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b011-h", "method": "exact_match", "score": 0.25, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
 {"id": "b012-f", "method": "exact_match", "score": 0.3, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b012-h", "method": "exact_match", "score": 0.4615, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b013-f", "method": "exact_match", "score": 0.2727, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b013-h", "method": "exact_match", "score": 0.3636, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b014-f", "method": "exact_match", "score": 0.1818, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b014-h", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
+{"id": "b013-f", "method": "exact_match", "score": 0.2, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b013-h", "method": "exact_match", "score": 0.3, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
+{"id": "b014-f", "method": "exact_match", "score": 0.1818, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b014-h", "method": "exact_match", "score": 0.25, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
 {"id": "b015-f", "method": "exact_match", "score": 0.2857, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b015-h", "method": "exact_match", "score": 0.2857, "predicted": true, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b016-f", "method": "exact_match", "score": 0.2727, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b016-h", "method": "exact_match", "score": 0.3636, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
-{"id": "b017-f", "method": "exact_match", "score": 0.2, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b017-h", "method": "exact_match", "score": 0.2, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": null}
-{"id": "b018-f", "method": "exact_match", "score": 0.1, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b018-h", "method": "exact_match", "score": 0.1429, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b019-f", "method": "exact_match", "score": 0.2222, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b019-h", "method": "exact_match", "score": 0.4444, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
-{"id": "b020-f", "method": "exact_match", "score": 0.1538, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b016-f", "method": "exact_match", "score": 0.25, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b016-h", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
+{"id": "b017-f", "method": "exact_match", "score": 0.1, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b017-h", "method": "exact_match", "score": 0.1, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b018-f", "method": "exact_match", "score": 0.0909, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b018-h", "method": "exact_match", "score": 0.2, "predicted": false, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
+{"id": "b019-f", "method": "exact_match", "score": 0.2, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b019-h", "method": "exact_match", "score": 0.4, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b020-f", "method": "exact_match", "score": 0.1538, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b020-h", "method": "exact_match", "score": 0.4615, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
-{"id": "b021-f", "method": "exact_match", "score": 0.2222, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b021-f", "method": "exact_match", "score": 0.2222, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b021-h", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b022-f", "method": "exact_match", "score": 0.2143, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b022-h", "method": "exact_match", "score": 0.2143, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b022-f", "method": "exact_match", "score": 0.1333, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b022-h", "method": "exact_match", "score": 0.1429, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
 {"id": "b023-f", "method": "exact_match", "score": 0.0769, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b023-h", "method": "exact_match", "score": 0.3, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b024-f", "method": "exact_match", "score": 0.0909, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b024-h", "method": "exact_match", "score": 0.2727, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
-{"id": "b025-f", "method": "exact_match", "score": 0.1, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b025-h", "method": "exact_match", "score": 0.2, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b026-f", "method": "exact_match", "score": 0.2143, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b025-f", "method": "exact_match", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b025-h", "method": "exact_match", "score": 0.1111, "predicted": false, "gold": true, "type": "number_change", "flagged_claims": null}
+{"id": "b026-f", "method": "exact_match", "score": 0.2143, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b026-h", "method": "exact_match", "score": 0.4, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b027-f", "method": "exact_match", "score": 0.1, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b027-h", "method": "exact_match", "score": 0.2222, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
-{"id": "b028-f", "method": "exact_match", "score": 0.1, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b027-f", "method": "exact_match", "score": 0.0909, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b027-h", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b028-f", "method": "exact_match", "score": 0.0909, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b028-h", "method": "exact_match", "score": 0.3077, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
-{"id": "b029-f", "method": "exact_match", "score": 0.2857, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b029-h", "method": "exact_match", "score": 0.4286, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
-{"id": "b030-f", "method": "exact_match", "score": 0.125, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b030-h", "method": "exact_match", "score": 0.125, "predicted": true, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b031-f", "method": "exact_match", "score": 0.0909, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b031-h", "method": "exact_match", "score": 0.1429, "predicted": true, "gold": true, "type": "negation", "flagged_claims": null}
+{"id": "b029-f", "method": "exact_match", "score": 0.1429, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b029-h", "method": "exact_match", "score": 0.2857, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
+{"id": "b030-f", "method": "exact_match", "score": 0.125, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b030-h", "method": "exact_match", "score": 0.125, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
+{"id": "b031-f", "method": "exact_match", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b031-h", "method": "exact_match", "score": 0.1765, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
 {"id": "b032-f", "method": "exact_match", "score": 0.25, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b032-h", "method": "exact_match", "score": 0.5556, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
-{"id": "b033-f", "method": "exact_match", "score": 0.2143, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b033-f", "method": "exact_match", "score": 0.2143, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b033-h", "method": "exact_match", "score": 0.2857, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b034-f", "method": "exact_match", "score": 0.1538, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b034-f", "method": "exact_match", "score": 0.1538, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b034-h", "method": "exact_match", "score": 0.3684, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b035-f", "method": "exact_match", "score": 0.5, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b035-h", "method": "exact_match", "score": 0.75, "predicted": true, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b036-f", "method": "exact_match", "score": 0.1667, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b036-h", "method": "exact_match", "score": 0.2308, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
-{"id": "b037-f", "method": "exact_match", "score": 0.125, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b037-h", "method": "exact_match", "score": 0.125, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": null}
-{"id": "b038-f", "method": "exact_match", "score": 0.2727, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b038-h", "method": "exact_match", "score": 0.4545, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
-{"id": "b039-f", "method": "exact_match", "score": 0.2308, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b036-f", "method": "exact_match", "score": 0.1667, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b036-h", "method": "exact_match", "score": 0.2308, "predicted": false, "gold": true, "type": "overgeneralization", "flagged_claims": null}
+{"id": "b037-f", "method": "exact_match", "score": 0.125, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b037-h", "method": "exact_match", "score": 0.125, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b038-f", "method": "exact_match", "score": 0.25, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b038-h", "method": "exact_match", "score": 0.4167, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b039-f", "method": "exact_match", "score": 0.2308, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b039-h", "method": "exact_match", "score": 0.6, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
 {"id": "b040-f", "method": "exact_match", "score": 0.4, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b040-h", "method": "exact_match", "score": 0.4, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": null}
@@ -82,160 +82,160 @@
 {"id": "b041-h", "method": "exact_match", "score": 0.6, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
 {"id": "b042-f", "method": "exact_match", "score": 0.2857, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b042-h", "method": "exact_match", "score": 0.381, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b043-f", "method": "exact_match", "score": 0.2222, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b043-h", "method": "exact_match", "score": 0.4444, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
-{"id": "b044-f", "method": "exact_match", "score": 0.1818, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b044-h", "method": "exact_match", "score": 0.4375, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
+{"id": "b043-f", "method": "exact_match", "score": 0.1, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b043-h", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b044-f", "method": "exact_match", "score": 0.1818, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b044-h", "method": "exact_match", "score": 0.375, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b045-f", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b045-h", "method": "exact_match", "score": 0.5, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b046-f", "method": "exact_match", "score": 0.0833, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b046-h", "method": "exact_match", "score": 0.0833, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b046-f", "method": "exact_match", "score": 0.1667, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b046-h", "method": "exact_match", "score": 0.1667, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
 {"id": "b047-f", "method": "exact_match", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b047-h", "method": "exact_match", "score": 0.1429, "predicted": true, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b048-f", "method": "exact_match", "score": 0.1667, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b047-h", "method": "exact_match", "score": 0.1429, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
+{"id": "b048-f", "method": "exact_match", "score": 0.1667, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b048-h", "method": "exact_match", "score": 0.3333, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b049-f", "method": "exact_match", "score": 0.4286, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b049-h", "method": "exact_match", "score": 0.4286, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
 {"id": "b050-f", "method": "exact_match", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b050-h", "method": "exact_match", "score": 0.3125, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b001-f", "method": "semantic_similarity", "score": 0.3652, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b001-h", "method": "semantic_similarity", "score": 0.5882, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Orion Robotics was started by David Park."]}
-{"id": "b002-f", "method": "semantic_similarity", "score": 0.3686, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b002-h", "method": "semantic_similarity", "score": 0.4154, "predicted": false, "gold": true, "type": "number_change", "flagged_claims": []}
-{"id": "b003-f", "method": "semantic_similarity", "score": 0.4191, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b003-h", "method": "semantic_similarity", "score": 0.7549, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Any carried-over days expire if not used by March 31."]}
-{"id": "b004-f", "method": "semantic_similarity", "score": 0.3272, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b004-h", "method": "semantic_similarity", "score": 0.4226, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
-{"id": "b005-f", "method": "semantic_similarity", "score": 0.4191, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b005-h", "method": "semantic_similarity", "score": 0.4191, "predicted": false, "gold": true, "type": "date_change", "flagged_claims": []}
+{"id": "b001-f", "method": "semantic_similarity", "score": 0.6056, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The company was set up in Pune in 2014."]}
+{"id": "b001-h", "method": "semantic_similarity", "score": 0.6056, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["The company was set up in Pune in 2014."]}
+{"id": "b002-f", "method": "semantic_similarity", "score": 0.3609, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b002-h", "method": "semantic_similarity", "score": 0.412, "predicted": false, "gold": true, "type": "number_change", "flagged_claims": []}
+{"id": "b003-f", "method": "semantic_similarity", "score": 0.4138, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b003-h", "method": "semantic_similarity", "score": 0.6399, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Any carried-forward leave lapses if not used by 31 March."]}
+{"id": "b004-f", "method": "semantic_similarity", "score": 0.4323, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b004-h", "method": "semantic_similarity", "score": 0.5, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
+{"id": "b005-f", "method": "semantic_similarity", "score": 0.5071, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b005-h", "method": "semantic_similarity", "score": 0.5071, "predicted": false, "gold": true, "type": "date_change", "flagged_claims": []}
 {"id": "b006-f", "method": "semantic_similarity", "score": 0.4305, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b006-h", "method": "semantic_similarity", "score": 0.5852, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["The upload_async method is also twice as fast as sync_upload."]}
-{"id": "b007-f", "method": "semantic_similarity", "score": 0.7198, "predicted": true, "gold": false, "type": null, "flagged_claims": ["This figure comes from a 2021 survey."]}
-{"id": "b007-h", "method": "semantic_similarity", "score": 0.7198, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["This figure comes from a 2021 survey."]}
-{"id": "b008-f", "method": "semantic_similarity", "score": 0.2795, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b008-h", "method": "semantic_similarity", "score": 0.5334, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
-{"id": "b009-f", "method": "semantic_similarity", "score": 0.4343, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b009-h", "method": "semantic_similarity", "score": 0.3165, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
-{"id": "b010-f", "method": "semantic_similarity", "score": 0.471, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b010-h", "method": "semantic_similarity", "score": 0.6138, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["Peter Novak scored twice in the final."]}
-{"id": "b011-f", "method": "semantic_similarity", "score": 0.4672, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b011-h", "method": "semantic_similarity", "score": 0.5409, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["On weekdays trains come every 15 minutes."]}
-{"id": "b012-f", "method": "semantic_similarity", "score": 0.3876, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b006-h", "method": "semantic_similarity", "score": 0.5979, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["The upload_async method is also twice as fast as sync_upload."]}
+{"id": "b007-f", "method": "semantic_similarity", "score": 0.7239, "predicted": true, "gold": false, "type": null, "flagged_claims": ["This figure comes from a 2021 survey."]}
+{"id": "b007-h", "method": "semantic_similarity", "score": 0.7239, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["This figure comes from a 2021 survey."]}
+{"id": "b008-f", "method": "semantic_similarity", "score": 0.5413, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b008-h", "method": "semantic_similarity", "score": 0.4855, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
+{"id": "b009-f", "method": "semantic_similarity", "score": 0.4153, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b009-h", "method": "semantic_similarity", "score": 0.2925, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
+{"id": "b010-f", "method": "semantic_similarity", "score": 0.4805, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b010-h", "method": "semantic_similarity", "score": 0.5902, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["Joseph Mathew scored twice in the final."]}
+{"id": "b011-f", "method": "semantic_similarity", "score": 0.4879, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b011-h", "method": "semantic_similarity", "score": 0.568, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["On weekdays buses come every 15 minutes."]}
+{"id": "b012-f", "method": "semantic_similarity", "score": 0.3694, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b012-h", "method": "semantic_similarity", "score": 0.813, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["It can also be completed fully online."]}
-{"id": "b013-f", "method": "semantic_similarity", "score": 0.6368, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It runs at a clock speed of 133 MHz."]}
-{"id": "b013-h", "method": "semantic_similarity", "score": 0.6368, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Pico-7 includes 512 KB of RAM.", "It runs at a clock speed of 133 MHz."]}
-{"id": "b014-f", "method": "semantic_similarity", "score": 0.5641, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Annual increases are limited to 5%."]}
-{"id": "b014-h", "method": "semantic_similarity", "score": 0.6945, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["Annual increases are limited to 5% for every rental property in Riverton."]}
-{"id": "b015-f", "method": "semantic_similarity", "score": 0.5029, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b015-h", "method": "semantic_similarity", "score": 0.5603, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["It is a certified medical device."]}
-{"id": "b016-f", "method": "semantic_similarity", "score": 0.6746, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The deal closed in March 2020."]}
-{"id": "b016-h", "method": "semantic_similarity", "score": 0.7512, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": ["The deal closed in March 2021."]}
-{"id": "b017-f", "method": "semantic_similarity", "score": 0.6093, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It arrived at Kallos in 2034."]}
-{"id": "b017-h", "method": "semantic_similarity", "score": 0.5931, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["It arrived at Kallos in 2031."]}
-{"id": "b018-f", "method": "semantic_similarity", "score": 0.6407, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Items must be unworn to be returned."]}
-{"id": "b018-h", "method": "semantic_similarity", "score": 0.6407, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Items must be unworn to be returned.", "Return shipping is always free."]}
-{"id": "b019-f", "method": "semantic_similarity", "score": 0.512, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b019-h", "method": "semantic_similarity", "score": 0.6834, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["The variety resists late blight."]}
-{"id": "b020-f", "method": "semantic_similarity", "score": 0.4086, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b013-f", "method": "semantic_similarity", "score": 0.6438, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It runs at a clock speed of 133 MHz."]}
+{"id": "b013-h", "method": "semantic_similarity", "score": 0.6438, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["It runs at a clock speed of 133 MHz."]}
+{"id": "b014-f", "method": "semantic_similarity", "score": 0.5641, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b014-h", "method": "semantic_similarity", "score": 0.6661, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["Annual increases are limited to 5% for every rented property in Navi Nagar."]}
+{"id": "b015-f", "method": "semantic_similarity", "score": 0.5358, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b015-h", "method": "semantic_similarity", "score": 0.5739, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["It is a certified medical device."]}
+{"id": "b016-f", "method": "semantic_similarity", "score": 0.7013, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The deal was closed in March 2020."]}
+{"id": "b016-h", "method": "semantic_similarity", "score": 0.7716, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": ["The deal was closed in March 2021."]}
+{"id": "b017-f", "method": "semantic_similarity", "score": 0.45, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b017-h", "method": "semantic_similarity", "score": 0.45, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
+{"id": "b018-f", "method": "semantic_similarity", "score": 0.6812, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Items must be unused to be returned."]}
+{"id": "b018-h", "method": "semantic_similarity", "score": 0.8011, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Items must be unused to be returned.", "Return pickup is always free."]}
+{"id": "b019-f", "method": "semantic_similarity", "score": 0.481, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b019-h", "method": "semantic_similarity", "score": 0.6907, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["The variety resists late blight."]}
+{"id": "b020-f", "method": "semantic_similarity", "score": 0.4294, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b020-h", "method": "semantic_similarity", "score": 0.8378, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["Every employee qualifies from their first day."]}
-{"id": "b021-f", "method": "semantic_similarity", "score": 0.5409, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It supplies electricity to roughly 60,000 homes."]}
+{"id": "b021-f", "method": "semantic_similarity", "score": 0.5409, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b021-h", "method": "semantic_similarity", "score": 0.5854, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["It supplies electricity to roughly 90,000 homes."]}
-{"id": "b022-f", "method": "semantic_similarity", "score": 0.3163, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b022-h", "method": "semantic_similarity", "score": 0.4872, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
-{"id": "b023-f", "method": "semantic_similarity", "score": 0.2894, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b023-h", "method": "semantic_similarity", "score": 0.7549, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Alcohol should also be avoided for 48 hours after each dose."]}
-{"id": "b024-f", "method": "semantic_similarity", "score": 0.6115, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Most rain falls from November to February.", "The valley gets about 640 mm of rain a year."]}
-{"id": "b024-h", "method": "semantic_similarity", "score": 0.8001, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Most rain falls from June to August.", "The valley gets about 640 mm of rain a year."]}
-{"id": "b025-f", "method": "semantic_similarity", "score": 0.4904, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b025-h", "method": "semantic_similarity", "score": 0.4904, "predicted": false, "gold": true, "type": "number_change", "flagged_claims": []}
+{"id": "b022-f", "method": "semantic_similarity", "score": 0.3044, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b022-h", "method": "semantic_similarity", "score": 0.481, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
+{"id": "b023-f", "method": "semantic_similarity", "score": 0.2723, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b023-h", "method": "semantic_similarity", "score": 0.7061, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Alcohol should also be avoided for 48 hours after each dose."]}
+{"id": "b024-f", "method": "semantic_similarity", "score": 0.6593, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Most rain falls from June to September.", "The valley gets about 2,640 mm of rain a year."]}
+{"id": "b024-h", "method": "semantic_similarity", "score": 0.8228, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Most rain falls from December to February.", "The valley gets about 2,640 mm of rain a year."]}
+{"id": "b025-f", "method": "semantic_similarity", "score": 0.4568, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b025-h", "method": "semantic_similarity", "score": 0.4568, "predicted": false, "gold": true, "type": "number_change", "flagged_claims": []}
 {"id": "b026-f", "method": "semantic_similarity", "score": 0.3211, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b026-h", "method": "semantic_similarity", "score": 0.7796, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["The key is suspended for 24 hours after three violations."]}
-{"id": "b027-f", "method": "semantic_similarity", "score": 0.4007, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b027-h", "method": "semantic_similarity", "score": 0.6028, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Harbor at Dusk is in the collection of the Louvre."]}
-{"id": "b028-f", "method": "semantic_similarity", "score": 0.3982, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b028-h", "method": "semantic_similarity", "score": 0.562, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["MFA is required for every login, including on-site access."]}
-{"id": "b029-f", "method": "semantic_similarity", "score": 0.7764, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It will begin in April."]}
-{"id": "b029-h", "method": "semantic_similarity", "score": 0.9321, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": ["It will begin in September."]}
-{"id": "b030-f", "method": "semantic_similarity", "score": 0.3209, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b030-h", "method": "semantic_similarity", "score": 0.34, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
-{"id": "b031-f", "method": "semantic_similarity", "score": 0.3217, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b031-h", "method": "semantic_similarity", "score": 0.4963, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
-{"id": "b032-f", "method": "semantic_similarity", "score": 0.5756, "predicted": true, "gold": false, "type": null, "flagged_claims": ["She is from Carmel University."]}
-{"id": "b032-h", "method": "semantic_similarity", "score": 0.8381, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["She is from the Haifa Institute of Technology."]}
-{"id": "b033-f", "method": "semantic_similarity", "score": 0.5665, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It runs two shifts a day, so about 2,400 units daily."]}
+{"id": "b026-h", "method": "semantic_similarity", "score": 0.7693, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["The key is suspended for 24 hours after three violations."]}
+{"id": "b027-f", "method": "semantic_similarity", "score": 0.3818, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b027-h", "method": "semantic_similarity", "score": 0.5962, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Harbour at Dusk is in the collection of the National Gallery of Modern Art."]}
+{"id": "b028-f", "method": "semantic_similarity", "score": 0.302, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b028-h", "method": "semantic_similarity", "score": 0.6442, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["MFA is mandatory for every login, including from office."]}
+{"id": "b029-f", "method": "semantic_similarity", "score": 0.7582, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It will begin in April."]}
+{"id": "b029-h", "method": "semantic_similarity", "score": 0.9065, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": ["It will begin in September."]}
+{"id": "b030-f", "method": "semantic_similarity", "score": 0.3402, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b030-h", "method": "semantic_similarity", "score": 0.3587, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
+{"id": "b031-f", "method": "semantic_similarity", "score": 0.2162, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b031-h", "method": "semantic_similarity", "score": 0.4836, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
+{"id": "b032-f", "method": "semantic_similarity", "score": 0.5766, "predicted": true, "gold": false, "type": null, "flagged_claims": ["She is from Aravalli University."]}
+{"id": "b032-h", "method": "semantic_similarity", "score": 0.981, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["She is from Deccan College, Pune."]}
+{"id": "b033-f", "method": "semantic_similarity", "score": 0.5665, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b033-h", "method": "semantic_similarity", "score": 0.6716, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["It runs three shifts a day, so about 3,600 units daily."]}
 {"id": "b034-f", "method": "semantic_similarity", "score": 0.5011, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b034-h", "method": "semantic_similarity", "score": 0.8248, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["An automatic migration tool converts old plugins."]}
 {"id": "b035-f", "method": "semantic_similarity", "score": 0.7168, "predicted": true, "gold": false, "type": null, "flagged_claims": ["No, it stays active all year."]}
-{"id": "b035-h", "method": "semantic_similarity", "score": 0.8639, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["Yes, it hibernates through the winter."]}
-{"id": "b036-f", "method": "semantic_similarity", "score": 0.3093, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b036-h", "method": "semantic_similarity", "score": 0.4848, "predicted": false, "gold": true, "type": "overgeneralization", "flagged_claims": []}
-{"id": "b037-f", "method": "semantic_similarity", "score": 0.5782, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The level cap goes up to 70."]}
-{"id": "b037-h", "method": "semantic_similarity", "score": 0.5927, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["The level cap goes up to 60."]}
-{"id": "b038-f", "method": "semantic_similarity", "score": 0.4525, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b038-h", "method": "semantic_similarity", "score": 0.581, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Lawn watering is allowed on Mondays and Thursdays."]}
-{"id": "b039-f", "method": "semantic_similarity", "score": 0.5161, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b039-h", "method": "semantic_similarity", "score": 0.9547, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["It worked equally well across all age groups."]}
-{"id": "b040-f", "method": "semantic_similarity", "score": 0.8184, "predicted": true, "gold": false, "type": null, "flagged_claims": ["They are given priority."]}
-{"id": "b040-h", "method": "semantic_similarity", "score": 0.8184, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["They are given priority."]}
-{"id": "b041-f", "method": "semantic_similarity", "score": 0.6993, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Renewal is not possible if someone else has a hold on the item."]}
-{"id": "b041-h", "method": "semantic_similarity", "score": 0.6993, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["Renewal is not possible if someone else has a hold on the item."]}
-{"id": "b042-f", "method": "semantic_similarity", "score": 0.3791, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b042-h", "method": "semantic_similarity", "score": 0.5432, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Cross-region replication completes within 15 minutes."]}
-{"id": "b043-f", "method": "semantic_similarity", "score": 0.5134, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b043-h", "method": "semantic_similarity", "score": 0.6841, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["The festival takes place at Riverside Park."]}
-{"id": "b044-f", "method": "semantic_similarity", "score": 0.5453, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Each bloom lasts around two weeks."]}
-{"id": "b044-h", "method": "semantic_similarity", "score": 0.8937, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Each bloom lasts around two weeks.", "It is pollinated exclusively by the giant sphinx moth."]}
-{"id": "b045-f", "method": "semantic_similarity", "score": 0.4877, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b045-h", "method": "semantic_similarity", "score": 0.5682, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["Refunds arrive in 1 to 2 business days."]}
-{"id": "b046-f", "method": "semantic_similarity", "score": 0.4202, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b046-h", "method": "semantic_similarity", "score": 0.5139, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
-{"id": "b047-f", "method": "semantic_similarity", "score": 0.2169, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b047-h", "method": "semantic_similarity", "score": 0.3679, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
+{"id": "b035-h", "method": "semantic_similarity", "score": 0.8446, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["Yes, it hibernates through the winter."]}
+{"id": "b036-f", "method": "semantic_similarity", "score": 0.3618, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b036-h", "method": "semantic_similarity", "score": 0.4384, "predicted": false, "gold": true, "type": "overgeneralization", "flagged_claims": []}
+{"id": "b037-f", "method": "semantic_similarity", "score": 0.6028, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The level cap goes up to 70."]}
+{"id": "b037-h", "method": "semantic_similarity", "score": 0.6333, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["The level cap goes up to 60."]}
+{"id": "b038-f", "method": "semantic_similarity", "score": 0.5338, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b038-h", "method": "semantic_similarity", "score": 0.6602, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Garden watering is allowed on Mondays and Thursdays."]}
+{"id": "b039-f", "method": "semantic_similarity", "score": 0.575, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Overall, sleep onset time dropped by 11 minutes on average."]}
+{"id": "b039-h", "method": "semantic_similarity", "score": 0.961, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["It worked equally well across all age groups.", "Overall, sleep onset time dropped by 11 minutes on average."]}
+{"id": "b040-f", "method": "semantic_similarity", "score": 0.8075, "predicted": true, "gold": false, "type": null, "flagged_claims": ["They are given priority."]}
+{"id": "b040-h", "method": "semantic_similarity", "score": 0.8075, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["They are given priority."]}
+{"id": "b041-f", "method": "semantic_similarity", "score": 0.7286, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Renewal is not possible if someone else has a hold on the book."]}
+{"id": "b041-h", "method": "semantic_similarity", "score": 0.7286, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["Renewal is not possible if someone else has a hold on the book."]}
+{"id": "b042-f", "method": "semantic_similarity", "score": 0.3837, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b042-h", "method": "semantic_similarity", "score": 0.5583, "predicted": false, "gold": true, "type": "unsupported_addition", "flagged_claims": []}
+{"id": "b043-f", "method": "semantic_similarity", "score": 0.4492, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b043-h", "method": "semantic_similarity", "score": 0.7414, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["The festival is held at Marine Drive."]}
+{"id": "b044-f", "method": "semantic_similarity", "score": 0.5506, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b044-h", "method": "semantic_similarity", "score": 0.8434, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["It is pollinated only by the giant hawk moth."]}
+{"id": "b045-f", "method": "semantic_similarity", "score": 0.4808, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b045-h", "method": "semantic_similarity", "score": 0.59, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["Refunds arrive in 1 to 2 working days."]}
+{"id": "b046-f", "method": "semantic_similarity", "score": 0.4374, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b046-h", "method": "semantic_similarity", "score": 0.6127, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["Council members serve six-month terms."]}
+{"id": "b047-f", "method": "semantic_similarity", "score": 0.2241, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b047-h", "method": "semantic_similarity", "score": 0.4001, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
 {"id": "b048-f", "method": "semantic_similarity", "score": 0.7336, "predicted": true, "gold": false, "type": null, "flagged_claims": ["No, TX-9 does not dissolve in water."]}
 {"id": "b048-h", "method": "semantic_similarity", "score": 0.7336, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["No, TX-9 does not dissolve in water."]}
-{"id": "b049-f", "method": "semantic_similarity", "score": 0.5571, "predicted": true, "gold": false, "type": null, "flagged_claims": ["No, 8 am on a weekday is within peak hours, when regular bikes are not allowed."]}
-{"id": "b049-h", "method": "semantic_similarity", "score": 0.5571, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["No, 8 am on a weekday is within peak hours, when regular bikes are not allowed."]}
-{"id": "b050-f", "method": "semantic_similarity", "score": 0.4795, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b050-h", "method": "semantic_similarity", "score": 0.9657, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Commercial use requires a separate agreement."]}
+{"id": "b049-f", "method": "semantic_similarity", "score": 0.6246, "predicted": true, "gold": false, "type": null, "flagged_claims": ["No, 9 am on a weekday is within peak hours, when regular cycles are not allowed."]}
+{"id": "b049-h", "method": "semantic_similarity", "score": 0.6246, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["No, 9 am on a weekday is within peak hours, when regular cycles are not allowed."]}
+{"id": "b050-f", "method": "semantic_similarity", "score": 0.5558, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b050-h", "method": "semantic_similarity", "score": 0.9515, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Commercial use requires a separate agreement."]}
 {"id": "b001-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b001-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b001-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b002-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b002-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b003-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b003-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b003-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b004-f", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b004-h", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b005-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b005-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "date_change", "flagged_claims": null}
+{"id": "b005-f", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b005-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
 {"id": "b006-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b006-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b007-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b007-f", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b007-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
 {"id": "b008-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b008-h", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b009-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b009-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
-{"id": "b010-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b010-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b009-f", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b009-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b010-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b010-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
 {"id": "b011-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b011-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b012-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b012-f", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b012-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b013-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b013-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b013-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
 {"id": "b014-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b014-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "overgeneralization", "flagged_claims": null}
-{"id": "b015-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b015-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
-{"id": "b016-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b014-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "overgeneralization", "flagged_claims": null}
+{"id": "b015-f", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b015-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "negation", "flagged_claims": null}
+{"id": "b016-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b016-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
-{"id": "b017-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b017-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b017-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b017-h", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
 {"id": "b018-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b018-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b019-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b019-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b019-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b020-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b020-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
 {"id": "b021-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
@@ -245,123 +245,123 @@
 {"id": "b023-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b023-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b024-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b024-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b024-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b025-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b025-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
 {"id": "b026-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b026-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b027-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b027-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b027-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b028-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b028-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "overgeneralization", "flagged_claims": null}
-{"id": "b029-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b029-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
+{"id": "b028-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
+{"id": "b029-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b029-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": null}
 {"id": "b030-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b030-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
 {"id": "b031-f", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b031-h", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
+{"id": "b031-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
 {"id": "b032-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b032-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b033-f", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b033-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
 {"id": "b034-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b034-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
+{"id": "b034-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b035-f", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b035-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "negation", "flagged_claims": null}
 {"id": "b036-f", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b036-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "overgeneralization", "flagged_claims": null}
 {"id": "b037-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b037-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
-{"id": "b038-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b038-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b038-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b039-f", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b039-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
-{"id": "b040-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b040-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b040-f", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b040-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": null}
 {"id": "b041-f", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b041-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b042-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b042-f", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b042-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b043-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b043-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b043-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b043-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b044-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b044-h", "method": "llm_judge", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
-{"id": "b045-f", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b044-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
+{"id": "b045-f", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b045-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": null}
-{"id": "b046-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b046-h", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
+{"id": "b046-f", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
+{"id": "b046-h", "method": "llm_judge", "score": 0.25, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": null}
 {"id": "b047-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b047-h", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": true, "type": "negation", "flagged_claims": null}
 {"id": "b048-f", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b048-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "entity_swap", "flagged_claims": null}
+{"id": "b048-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": null}
 {"id": "b049-f", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": false, "type": null, "flagged_claims": null}
 {"id": "b049-h", "method": "llm_judge", "score": 0.75, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": null}
 {"id": "b050-f", "method": "llm_judge", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": null}
-{"id": "b050-h", "method": "llm_judge", "score": 0.5, "predicted": false, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
+{"id": "b050-h", "method": "llm_judge", "score": 0.5, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": null}
 {"id": "b001-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b001-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Orion Robotics was started by David Park."]}
+{"id": "b001-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Sahyadri Robotics was started by Rohan Deshpande."]}
 {"id": "b002-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b002-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Kestrel X2 filter should be swapped out every 6 months."]}
+{"id": "b002-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Pavan X2 filter should be changed every 6 months."]}
 {"id": "b003-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b003-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Any carried-over days expire if not used by March 31."]}
+{"id": "b003-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Any carried-forward leave lapses if not used by 31 March."]}
 {"id": "b004-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b004-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["Zelvanor is approved for patients younger than 18."]}
-{"id": "b005-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b005-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "date_change", "flagged_claims": []}
+{"id": "b005-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Its construction was overseen by Lala Hardayal Gupta, the town's first chairman."]}
+{"id": "b005-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": ["Its construction was overseen by Lala Hardayal Gupta, the town's first chairman."]}
 {"id": "b006-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b006-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["The upload_async method is also twice as fast as sync_upload."]}
 {"id": "b007-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["This figure comes from a 2021 survey."]}
-{"id": "b007-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Varn Glacier has pulled back 3.2 kilometers since 1950.", "This figure comes from a 2021 survey."]}
+{"id": "b007-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Kesar glacier has pulled back 3.2 kilometres since 1950.", "This figure comes from a 2021 survey."]}
 {"id": "b008-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b008-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
-{"id": "b009-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Balances over $5,000 earn 3.1% per year."]}
-{"id": "b009-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["Balances over $5,000 earn 1.2% per year."]}
-{"id": "b010-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Ana Silva scored twice in the final."]}
-{"id": "b010-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["Peter Novak scored twice in the final."]}
+{"id": "b009-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b009-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
+{"id": "b010-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b010-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
 {"id": "b011-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b011-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["On weekdays trains come every 15 minutes."]}
-{"id": "b012-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The program takes 18 months to complete."]}
-{"id": "b012-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["The program takes 18 months to complete.", "It can also be completed fully online."]}
+{"id": "b011-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["On weekdays buses come every 15 minutes."]}
+{"id": "b012-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The programme takes 18 months to complete."]}
+{"id": "b012-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["The programme takes 18 months to complete.", "It can also be completed fully online."]}
 {"id": "b013-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It runs at a clock speed of 133 MHz."]}
-{"id": "b013-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Pico-7 includes 512 KB of RAM.", "It runs at a clock speed of 133 MHz."]}
+{"id": "b013-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Tejas-7 has 512 KB of RAM.", "It runs at a clock speed of 133 MHz."]}
 {"id": "b014-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Annual increases are limited to 5%."]}
-{"id": "b014-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["Annual increases are limited to 5% for every rental property in Riverton."]}
+{"id": "b014-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["Annual increases are limited to 5% for every rented property in Navi Nagar."]}
 {"id": "b015-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It is not classified as a medical device."]}
 {"id": "b015-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["It is a certified medical device."]}
-{"id": "b016-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The deal closed in March 2020."]}
-{"id": "b016-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": ["The deal closed in March 2021."]}
-{"id": "b017-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It arrived at Kallos in 2034."]}
-{"id": "b017-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["It arrived at Kallos in 2031."]}
+{"id": "b016-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The deal was closed in March 2020."]}
+{"id": "b016-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": ["The deal was closed in March 2021."]}
+{"id": "b017-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b017-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
 {"id": "b018-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b018-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "unsupported_addition", "flagged_claims": []}
+{"id": "b018-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Return pickup is always free."]}
 {"id": "b019-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b019-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["The variety resists late blight."]}
 {"id": "b020-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b020-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["Every employee qualifies from their first day."]}
 {"id": "b021-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It supplies electricity to roughly 60,000 homes."]}
 {"id": "b021-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["It supplies electricity to roughly 90,000 homes."]}
-{"id": "b022-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Entry is free on the first Sunday of every month."]}
-{"id": "b022-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["Entry is free on the first Sunday of every month."]}
+{"id": "b022-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b022-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
 {"id": "b023-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b023-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Alcohol should also be avoided for 48 hours after each dose."]}
 {"id": "b024-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b024-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Most rain falls from June to August."]}
+{"id": "b024-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Most rain falls from December to February."]}
 {"id": "b025-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b025-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Vireo EV's estimated range is 520 km."]}
+{"id": "b025-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["The Vayu EV has a certified range of 520 km."]}
 {"id": "b026-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Going over the limit returns an HTTP 429 error."]}
 {"id": "b026-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Going over the limit returns an HTTP 429 error.", "The key is suspended for 24 hours after three violations."]}
 {"id": "b027-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b027-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Harbor at Dusk is in the collection of the Louvre."]}
+{"id": "b027-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["Harbour at Dusk is in the collection of the National Gallery of Modern Art."]}
 {"id": "b028-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b028-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["MFA is required for every login, including on-site access."]}
+{"id": "b028-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["MFA is mandatory for every login, including from office."]}
 {"id": "b029-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It will begin in April."]}
 {"id": "b029-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "date_change", "flagged_claims": ["It will begin in September."]}
 {"id": "b030-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b030-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
-{"id": "b031-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Unused data does not carry over."]}
-{"id": "b031-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["Unused data rolls over to the next month."]}
-{"id": "b032-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["She is from Carmel University."]}
-{"id": "b032-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["She is from the Haifa Institute of Technology."]}
+{"id": "b031-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b031-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["Unused data carries forward to the next day."]}
+{"id": "b032-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["She is from Aravalli University."]}
+{"id": "b032-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["She is from Deccan College, Pune."]}
 {"id": "b033-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It runs two shifts a day, so about 2,400 units daily."]}
 {"id": "b033-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["It runs three shifts a day, so about 3,600 units daily."]}
 {"id": "b034-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
@@ -369,32 +369,32 @@
 {"id": "b035-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["It stays active all year.", "It eats mostly roots and bulbs."]}
 {"id": "b035-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "negation", "flagged_claims": ["It hibernates through the winter.", "It eats mostly roots and bulbs."]}
 {"id": "b036-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Only in emergencies"]}
-{"id": "b036-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["Out-of-network care is covered at the same 70% rate."]}
+{"id": "b036-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["Out-of-network treatment is covered at the same 70% rate."]}
 {"id": "b037-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b037-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
-{"id": "b038-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["A first violation carries a fine starting at $100."]}
-{"id": "b038-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["A first violation carries a fine starting at $100.", "Lawn watering is allowed on Mondays and Thursdays."]}
+{"id": "b038-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["A first violation attracts a fine starting at Rs 1,000."]}
+{"id": "b038-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["A first violation attracts a fine starting at Rs 1,000.", "Garden watering is allowed on Mondays and Thursdays."]}
 {"id": "b039-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b039-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["It worked equally well across all age groups."]}
 {"id": "b040-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["They are given priority."]}
 {"id": "b040-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "in_context_swap", "flagged_claims": ["They are given priority."]}
-{"id": "b041-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Items can be renewed two times.", "Renewal is not possible if someone else has a hold on the item."]}
-{"id": "b041-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["Items can be renewed five times.", "Renewal is not possible if someone else has a hold on the item."]}
+{"id": "b041-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["Books can be renewed two times.", "Renewal is not possible if someone else has a hold on the book."]}
+{"id": "b041-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["Books can be renewed five times.", "Renewal is not possible if someone else has a hold on the book."]}
 {"id": "b042-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["By default data is copied across three availability zones within a region."]}
 {"id": "b042-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["By default data is copied across three availability zones within a region.", "Cross-region replication completes within 15 minutes."]}
-{"id": "b043-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["The festival takes place at Marlow Pier."]}
-{"id": "b043-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["The festival takes place at Riverside Park."]}
+{"id": "b043-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
+{"id": "b043-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["The festival is held at Marine Drive."]}
 {"id": "b044-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
-{"id": "b044-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["It is pollinated exclusively by the giant sphinx moth."]}
+{"id": "b044-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["It is pollinated only by the giant hawk moth."]}
 {"id": "b045-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["They go back to the original payment method."]}
-{"id": "b045-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["Refunds arrive in 1 to 2 business days.", "They go back to the original payment method."]}
+{"id": "b045-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "number_change", "flagged_claims": ["Refunds arrive in 1 to 2 working days.", "They go back to the original payment method."]}
 {"id": "b046-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b046-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "in_context_swap", "flagged_claims": []}
 {"id": "b047-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b047-h", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": true, "type": "negation", "flagged_claims": []}
 {"id": "b048-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["TX-9 does not dissolve in water."]}
 {"id": "b048-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "entity_swap", "flagged_claims": ["TX-9 does not dissolve in water.", "It is soluble in acetone."]}
-{"id": "b049-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["8 am on a weekday is within peak hours, when regular bikes are not allowed.", "Folding bikes are permitted at any time."]}
-{"id": "b049-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["8 am on a weekday is within peak hours, when regular bikes are not allowed.", "All bikes are permitted at any time."]}
+{"id": "b049-f", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": false, "type": null, "flagged_claims": ["9 am on a weekday is within peak hours, when regular cycles are not allowed.", "Folding cycles are permitted at any time."]}
+{"id": "b049-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "overgeneralization", "flagged_claims": ["9 am on a weekday is within peak hours, when regular cycles are not allowed.", "All cycles are permitted at any time."]}
 {"id": "b050-f", "method": "claim_verification", "score": 0.0, "predicted": false, "gold": false, "type": null, "flagged_claims": []}
 {"id": "b050-h", "method": "claim_verification", "score": 1.0, "predicted": true, "gold": true, "type": "unsupported_addition", "flagged_claims": ["Commercial use requires a separate agreement."]}

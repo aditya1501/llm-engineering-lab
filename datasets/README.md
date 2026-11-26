@@ -2,9 +2,9 @@
 
 | Dataset | Version | Size | Used by | Built by |
 |---|---|---|---|---|
-| `hallucination_qa` | v1 | 100 examples (50 faithful, 50 hallucinated; 50 dev / 50 test) | Challenge 01 | `challenges/01-hallucination-detection/experiments/build_dataset.py` |
+| `hallucination_qa` | v2 | 100 examples (50 faithful, 50 hallucinated; 50 dev / 50 test) | Challenge 01 | `challenges/01-hallucination-detection/experiments/build_dataset.py` |
 
-## hallucination_qa/v1.jsonl
+## hallucination_qa/v2.jsonl
 
 One JSON object per line:
 
@@ -20,6 +20,8 @@ One JSON object per line:
 | `hallucinated` | bool | True if any claim is unsupported |
 | `hallucination_type` | str \| null | `entity_swap`, `number_change`, `date_change`, `in_context_swap`, `negation`, `unsupported_addition`, `overgeneralization` |
 
-How it was made: 50 fictional contexts were written by hand so a model cannot answer from memory. Each has two faithful claims written as paraphrases, plus one hand-written perturbation that makes the answer unsupported. The responses are curated, not sampled from a model, because curated responses come with exact gold labels. The challenge's `generate_responses.py` covers model-generated answers.
+How it was made: 50 fictional contexts set in India (Indian names, cities, rupees, lakh and crore, Indian English phrasing such as "carried forward" and "working days") were written by hand so a model cannot answer from memory. Each has two faithful claims written as paraphrases, plus one hand-written perturbation that makes the answer unsupported. The responses are curated, not sampled from a model, because curated responses come with exact gold labels. The challenge's `generate_responses.py` covers model-generated answers.
 
 Known limitations: small (50 test examples), English only, two-to-three-sentence answers, one unsupported claim per hallucinated answer, and some type buckets have only one to four test examples.
+
+Version history: v1 (Nov 2026) used generic Western names and places. v2 rewrote the same 50 items, keeping each item's hallucination type, in an Indian context.

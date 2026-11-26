@@ -2,15 +2,15 @@
 
 ## The situation
 
-A support assistant answers customer questions from a knowledge-base article. A customer asks, "Does unused data roll over on my plan?" The article says it does not. The model replies, "Yes, unused data rolls over to the next month." The answer is fluent, confident and wrong. The customer acts on it, and the company now has a complaint, a refund, or a compliance issue.
+A telecom support assistant answers customer questions from a help article. A customer asks, "Does unused data carry forward on my plan?" The article says it does not. The model replies, "Yes, unused data carries forward to the next day." The answer is fluent, confident and wrong. The customer acts on it, and the company now has a complaint, a refund, or a compliance issue.
 
 Retrieval-augmented systems reduce this, but they don't remove it. Even with the right context in the prompt, models:
 
-- change numbers, dates and names (`264 KB` becomes `512 KB`)
-- swap facts *within* the context (the coach gets credit for the striker's goals)
-- flip negations (`not approved for under-18s` becomes `approved`)
-- add plausible details that the context never states ("return shipping is always free")
-- overgeneralize (`buildings with four or more units` becomes `every rental property`)
+- change numbers, dates and names (`Rs 48 crore` stays, but `March 2020` becomes `March 2021`; `264 KB` becomes `512 KB`)
+- swap facts *within* the context (the coach, Joseph Mathew, gets credit for striker Anjali Nair's goals)
+- flip negations (`not approved for patients below 18` becomes `approved`)
+- add plausible details that the context never states ("return pickup is always free")
+- overgeneralize (`buildings with four or more flats` becomes `every rented property`)
 
 ## The task
 

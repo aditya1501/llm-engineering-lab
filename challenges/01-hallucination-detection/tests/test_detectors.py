@@ -12,9 +12,9 @@ from halludetect.mock_responders import router
 from halludetect.types import Example
 from llm_lab.providers import HashingEmbedder, MockLLMProvider
 
-CTX = "The Pico-7 microcontroller runs at 133 MHz and has 264 KB of RAM. It supports USB 1.1 and has 26 GPIO pins."
-GOOD = Example("g", "How much RAM?", CTX, "The Pico-7 has 264 KB of RAM. It runs at 133 MHz.")
-BAD = Example("b", "How much RAM?", CTX, "The Pico-7 has 512 KB of RAM. It runs at 133 MHz.")
+CTX = "The Tejas-7 microcontroller runs at 133 MHz and has 264 KB of RAM. It supports USB 1.1 and has 26 GPIO pins."
+GOOD = Example("g", "How much RAM?", CTX, "The Tejas-7 has 264 KB of RAM. It runs at 133 MHz.")
+BAD = Example("b", "How much RAM?", CTX, "The Tejas-7 has 512 KB of RAM. It runs at 133 MHz.")
 
 
 @pytest.fixture
@@ -47,7 +47,7 @@ def test_judge_flags_changed_number(llm):
 def test_claim_verification_points_at_bad_claim(llm):
     d = ClaimVerificationDetector(llm).detect(BAD)
     assert d.score == 1.0
-    assert d.flagged_claims(1.0) == ["The Pico-7 has 512 KB of RAM."]
+    assert d.flagged_claims(1.0) == ["The Tejas-7 has 512 KB of RAM."]
     assert d.llm_calls == 3  # decompose + 2 claims
 
 

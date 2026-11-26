@@ -81,7 +81,7 @@ class ReplayLLMProvider(LLMProvider):
         self.inner = inner
         self._cache: dict[str, dict] = {}
         if self.path.exists():
-            for line in self.path.read_text().splitlines():
+            for line in self.path.read_text(encoding="utf-8").splitlines():
                 if line.strip():
                     row = json.loads(line)
                     self._cache[row["key"]] = row
@@ -100,7 +100,7 @@ class ReplayLLMProvider(LLMProvider):
                "input_tokens": resp.input_tokens, "output_tokens": resp.output_tokens}
         self._cache[key] = row
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        with self.path.open("a") as f:
+        with self.path.open("a", encoding="utf-8") as f:
             f.write(json.dumps(row) + "\n")
         return resp
 

@@ -6,7 +6,7 @@ from fastapi.testclient import TestClient  # noqa: E402
 from halludetect.api import app  # noqa: E402
 
 client = TestClient(app)
-CTX = "The Vireo EV has a 77 kWh battery and an estimated range of 480 km."
+CTX = "The Vayu EV has a 40 kWh battery and a certified range of 480 km."
 
 
 def test_health():

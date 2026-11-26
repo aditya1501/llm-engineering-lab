@@ -151,11 +151,11 @@ def main(argv: list[str] | None = None) -> dict:
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    (out / f"{tag}.json").write_text(json.dumps(report, indent=2) + "\n")
-    with (out / f"{tag}.predictions.jsonl").open("w") as f:
+    (out / f"{tag}.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    with (out / f"{tag}.predictions.jsonl").open("w", encoding="utf-8") as f:
         for row in per_example:
             f.write(json.dumps(row) + "\n")
-    (out / f"{tag}.md").write_text(render_markdown(report))
+    (out / f"{tag}.md").write_text(render_markdown(report), encoding="utf-8")
     print(render_markdown(report))
     return report
 

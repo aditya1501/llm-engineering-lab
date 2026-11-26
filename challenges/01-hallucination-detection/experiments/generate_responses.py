@@ -59,7 +59,7 @@ def main(argv: list[str] | None = None) -> None:
     tag = "mock" if args.provider == "mock" else f"live-{args.provider}"
     path = OUT / f"generated-{tag}.jsonl"
     OUT.mkdir(exist_ok=True)
-    path.write_text("".join(json.dumps(r) + "\n" for r in rows))
+    path.write_text("".join(json.dumps(r) + "\n" for r in rows), encoding="utf-8")
     print(f"Wrote {len(rows)} generated answers with detector scores to {path}")
 
 

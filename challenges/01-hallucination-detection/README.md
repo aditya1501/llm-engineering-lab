@@ -11,7 +11,7 @@ From the repo root:
 ```bash
 pip install -e ".[dev]"
 pytest challenges/01-hallucination-detection          # offline tests
-make dataset-01                                       # rebuild datasets/hallucination_qa/v1.jsonl
+make dataset-01                                       # rebuild datasets/hallucination_qa/v2.jsonl
 make bench-01                                         # mock benchmark -> results/mock-run.{json,md}
 make api-01                                           # optional: FastAPI service on :8000
 make docker-01                                        # tests + benchmark in a clean container
@@ -32,8 +32,8 @@ Try the API:
 ```bash
 curl -s localhost:8000/detect -H 'content-type: application/json' -d '{
   "question": "What is the range?",
-  "context": "The Vireo EV has a 77 kWh battery and an estimated range of 480 km.",
-  "response": "The Vireo has a 77 kWh battery. Its range is 520 km.",
+  "context": "The Vayu EV has a 40 kWh battery and a certified range of 480 km.",
+  "response": "The Vayu has a 40 kWh battery. Its range is 520 km.",
   "method": "claim_verification"}'
 ```
 
@@ -74,7 +74,7 @@ With `--provider mock` (the default), LLM calls go to [`mock_responders.py`](imp
 
 ## Dataset
 
-[`datasets/hallucination_qa/v1.jsonl`](../../datasets/hallucination_qa/v1.jsonl): 100 examples from 50 hand-written fictional contexts, each with a faithful answer and one hallucinated variant. Seven hallucination types: `unsupported_addition` (10), `number_change` (9), `entity_swap` (8), `negation` (7), `in_context_swap` (7), `overgeneralization` (6), `date_change` (3). Split 50 dev / 50 test by base item. Details and limitations are in [datasets/README.md](../../datasets/README.md).
+[`datasets/hallucination_qa/v2.jsonl`](../../datasets/hallucination_qa/v2.jsonl): 100 examples from 50 hand-written fictional contexts set in India and written in Indian English (Indian names and places, rupees, lakh and crore), each with a faithful answer and one hallucinated variant. Seven hallucination types: `unsupported_addition` (10), `number_change` (9), `entity_swap` (8), `negation` (7), `in_context_swap` (7), `overgeneralization` (6), `date_change` (3). Split 50 dev / 50 test by base item. Details and limitations are in [datasets/README.md](../../datasets/README.md).
 
 ## Metrics
 
@@ -87,32 +87,32 @@ Thresholds are picked on dev (max F1) and applied unchanged to test.
 
 ## Results
 
-> **Mock run.** The table below is copied from [`results/mock-run.md`](results/mock-run.md), which `run_benchmark.py` generated. LLM calls were answered by the heuristic mock responders and embeddings came from the hashing embedder. These numbers show that the pipeline works end to end and how the *heuristics* behave. They are **not** measurements of GPT, Claude or any real model. No live run has been recorded yet.
+> **Mock run.** The tables below are copied from [`results/mock-run.md`](results/mock-run.md), which `run_benchmark.py` generated. LLM calls were answered by the heuristic mock responders and embeddings came from the hashing embedder. These numbers show that the pipeline works end to end and how the *heuristics* behave. They are **not** measurements of GPT, Claude or any real model. No live run has been recorded yet.
 
 Test split, 50 examples (25 faithful, 25 hallucinated):
 
 | Method | Threshold | Precision | Recall | F1 | Accuracy | ROC-AUC | FPR on faithful | LLM calls / example |
 |---|---|---|---|---|---|---|---|---|
-| exact_match | 0.125 | 0.57 | 0.92 | 0.71 | 0.62 | 0.78 | 0.68 | 0.0 |
-| semantic_similarity | 0.541 | 0.69 | 0.72 | 0.71 | 0.70 | 0.81 | 0.32 | 0.0 |
-| llm_judge | 0.750 | 0.75 | 0.36 | 0.49 | 0.62 | 0.70 | 0.12 | 1.0 |
-| claim_verification | 1.000 | 0.64 | 0.84 | 0.72 | 0.68 | 0.68 | 0.48 | 3.1 |
+| exact_match | 0.250 | 0.71 | 0.60 | 0.65 | 0.68 | 0.79 | 0.24 | 0.0 |
+| semantic_similarity | 0.568 | 0.75 | 0.72 | 0.73 | 0.74 | 0.80 | 0.24 | 0.0 |
+| llm_judge | 0.500 | 0.71 | 0.60 | 0.65 | 0.68 | 0.71 | 0.24 | 1.0 |
+| claim_verification | 1.000 | 0.67 | 0.80 | 0.73 | 0.70 | 0.70 | 0.40 | 3.1 |
 
 Claim level (test split):
 
 | Method | Claim precision | Claim recall | Claim F1 |
 |---|---|---|---|
-| semantic_similarity | 0.53 | 0.64 | 0.58 |
-| claim_verification | 0.50 | 0.76 | 0.60 |
+| semantic_similarity | 0.59 | 0.64 | 0.62 |
+| claim_verification | 0.54 | 0.76 | 0.63 |
 
 Recall by hallucination type (test split, caught / total):
 
 | Method | date_change | entity_swap | in_context_swap | negation | number_change | overgeneralization | unsupported_addition |
 |---|---|---|---|---|---|---|---|
-| exact_match | 1/1 | 4/4 | 3/4 | 2/3 | 1/1 | 4/4 | 8/8 |
-| semantic_similarity | 1/1 | 4/4 | 2/4 | 0/3 | 0/1 | 3/4 | 8/8 |
-| llm_judge | 1/1 | 2/4 | 0/4 | 0/3 | 1/1 | 1/4 | 4/8 |
-| claim_verification | 1/1 | 4/4 | 3/4 | 1/3 | 1/1 | 4/4 | 7/8 |
+| exact_match | 1/1 | 4/4 | 1/4 | 0/3 | 0/1 | 3/4 | 6/8 |
+| semantic_similarity | 1/1 | 4/4 | 3/4 | 0/3 | 0/1 | 3/4 | 7/8 |
+| llm_judge | 1/1 | 4/4 | 1/4 | 0/3 | 1/1 | 2/4 | 6/8 |
+| claim_verification | 1/1 | 4/4 | 1/4 | 1/3 | 1/1 | 4/4 | 8/8 |
 
 Token counts for the mock run are estimates (characters / 4): 100 judge calls used about 26k input tokens; 311 claim-verification calls used about 55k. See [`results/mock-run.json`](results/mock-run.json).
 
@@ -134,12 +134,13 @@ With 50 test examples, one example moves accuracy by 2 points, and the per-type 
 
 **Observed in the mock run** (these hold for the heuristics in this repo; a live run is needed to say anything about real models):
 
-1. **Lexical overlap can't tell a paraphrase from a fabrication.** To reach 0.92 recall, the exact-match baseline flagged 68% of faithful answers. Writing faithful claims as paraphrases ("swapped out" for "replaced") was enough to trip it.
-2. **Holistic scoring hides one bad sentence among good ones.** The whole-answer judge had the lowest false-positive rate (0.12) and the lowest recall (0.36). Most answers have two good claims and one bad one, and a single score for the whole answer dilutes the bad one.
-3. **Verifying one claim at a time raises recall, and it localizes the error.** Claim verification caught 0.84 of hallucinated answers and 0.76 of the individual unsupported claims, at about 3.1 LLM calls per answer instead of 1.
-4. **Binary verdicts give a poor ranking.** Claim verification had the *lowest* ROC-AUC (0.68) despite the best F1, because each claim scores either 0 or 1, so there's no way to trade precision for recall. Graded confidence, or several sampled verdicts per claim, would fix that.
-5. **Swaps within the context and negation flips were the hardest types for every method.** The wrong value is already in the context, so overlap-based signals see nothing new.
-6. **Tokenization details move the metrics.** Two bugs were found while building this: `won` (as in "won the championship") was being read as the negation `won't`, and sentence splitting broke on "Dr.". Both made faithful claims look contradicted. Unit tests now cover both.
+1. **Every method has a different failure mode, and none wins on every metric.** Semantic similarity and claim verification tie on F1 (0.73). Claim verification catches the most hallucinated answers (0.80 recall) but also has the most false alarms on correct answers (0.40). Exact match and the whole-answer judge both sit at 0.60 recall.
+2. **Holistic scoring hides one bad sentence among good ones.** In the telecom example, "Yes, unused data carries forward to the next day" sits next to a correct sentence about the plan. The whole-answer judge gave it 4 out of 5 and let it pass; claim verification checked the sentence alone and marked it contradicted.
+3. **Verifying one claim at a time raises recall, and it localizes the error.** Claim verification caught 0.80 of hallucinated answers and 0.76 of the individual unsupported claims, at about 3.1 LLM calls per answer instead of 1.
+4. **Binary verdicts give a poor ranking.** Claim verification's ROC-AUC (0.70) is below semantic similarity's (0.80) because each claim scores either 0 or 1, so there's no way to trade precision for recall. Graded confidence, or several sampled verdicts per claim, would fix that.
+5. **Swaps within the context and negation flips were the hardest types.** The wrong value is already in the context, so overlap-based signals see nothing new. When the coach, Joseph Mathew, is credited with the striker's goals, claim verification marked the claim supported.
+6. **Benchmark wording moves the numbers.** Rewriting the same 50 items in an Indian context (dataset v1 to v2) changed exact match on the test split from 0.92 recall with 0.68 false alarms to 0.60 recall with 0.24 false alarms. Small, hand-written benchmarks are sensitive to phrasing; don't read too much into one run.
+7. **Tokenization details move the metrics.** Two bugs were found while building this: `won` (as in "won the league") was being read as the negation `won't`, and sentence splitting broke on "Dr.". Both made faithful claims look contradicted. Unit tests now cover both.
 
 **Design reasoning** (not measured here):
 

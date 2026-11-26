@@ -16,9 +16,9 @@ def test_benchmark_end_to_end(tmp_path):
     report = _load().main(["--out", str(tmp_path)])
     assert report["run"]["mode"] == "mock"
     assert set(report["methods"]) == {"exact_match", "semantic_similarity", "llm_judge", "claim_verification"}
-    saved = json.loads((tmp_path / "mock-run.json").read_text())
+    saved = json.loads((tmp_path / "mock-run.json").read_text(encoding="utf-8"))
     assert saved["methods"].keys() == report["methods"].keys()
-    assert "Mock run" in (tmp_path / "mock-run.md").read_text()
+    assert "Mock run" in (tmp_path / "mock-run.md").read_text(encoding="utf-8")
 
 
 def test_benchmark_is_deterministic(tmp_path):

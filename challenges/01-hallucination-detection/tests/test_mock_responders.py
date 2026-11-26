@@ -3,7 +3,7 @@ import json
 from halludetect.mock_responders import analyse, decompose_responder, verify_responder
 from halludetect.prompts import DECOMPOSE_TEMPLATE, VERIFY_TEMPLATE
 
-CTX = "It is not approved for patients under 18. The Gulls won the 2019 title."
+CTX = "It is not approved for patients under 18. The Kochi Blasters won the 2019 title."
 
 
 def test_negation_mismatch_detected():
@@ -12,11 +12,11 @@ def test_negation_mismatch_detected():
 
 
 def test_won_is_not_a_negation():
-    assert not analyse("The Gulls won the 2019 title.", CTX)["negation_mismatch"]
+    assert not analyse("The Kochi Blasters won the 2019 title.", CTX)["negation_mismatch"]
 
 
 def test_new_number_is_unsupported():
-    out = json.loads(verify_responder(VERIFY_TEMPLATE.format(context=CTX, claim="The Gulls won in 2020."), None))
+    out = json.loads(verify_responder(VERIFY_TEMPLATE.format(context=CTX, claim="The Kochi Blasters won in 2020."), None))
     assert out["verdict"] == "unsupported"
 
 

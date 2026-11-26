@@ -18,7 +18,7 @@ def strip(obj):
 
 
 def main(a: str, b: str) -> int:
-    ra, rb = strip(json.load(open(a))), strip(json.load(open(b)))
+    ra, rb = strip(json.load(open(a, encoding="utf-8"))), strip(json.load(open(b, encoding="utf-8")))
     if ra != rb:
         print("Benchmark results differ from the committed file. Re-run the benchmark and commit results/.")
         return 1
